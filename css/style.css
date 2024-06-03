@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url(/fonts/Poppins-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  width: 1920px;
+  height: 120px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+}
+header img {
+  width: 194px;
+  height: 54px;
+  margin-top: 33px;
+  margin-left: 160px;
+  margin-bottom: 33px;
+}
+header nav {
+  width: 646px;
+  height: 27px;
+  margin-top: 46px;
+  margin-left: 283px;
+  margin-bottom: 47px;
+}
+header nav ul {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 56px;
+  flex-direction: row;
+  list-style: none;
+}
+header nav ul a {
+  color: #949494;
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+header nav ul a:hover {
+  color: #F38160;
+  border-bottom: 2px #F38160;
+}
+header aside {
+  display: flex;
+  flex-direction: row;
+}
+header aside img {
+  width: 32px;
+  height: 32px;
+  margin-top: 44px;
+  margin-left: 140px;
+  margin-bottom: 44px;
+}
+header aside a {
+  margin-top: 46px;
+  margin-left: 56px;
+  margin-bottom: 47px;
+  color: #F38160;
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline;
+}
+header aside a:hover {
+  color: #949494;
+}
+header aside button {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 47px;
+  display: flex;
+  width: 149px;
+  height: 60px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 0px;
+  background: #F38160;
+  align-items: center;
+  justify-content: center;
+}
+header aside button a {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  margin: 0px;
+  margin-top: 16px;
+}
+
+main div.hero {
+  width: 762px;
+  height: 292px;
+  flex-shrink: 0;
+  margin-top: 78px;
+  margin-left: 160px;
+}
+main div.hero h1 {
+  width: 762px;
+  color: #403C39;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.8px;
+}
+main div.hero h1 span {
+  color: #F38160;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.8px;
+}
+main div.hero p {
+  margin-top: 16px;
+  width: 648px;
+  color: #949494;
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+}
+main div.searchbar {
+  display: flex;
+  flex-direction: row;
+  width: 512px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-left: 160px;
+  margin-top: 48px;
+}
+main div.searchbar input {
+  width: 452px;
+  color: #949494;
+  text-align: center;
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  border: 0px;
+  background: rgba(208, 208, 210, 0.25);
+}
+main div.searchbar img {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 0px 8px 8px 0px;
+  background: #F38160;
+}
+main div.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 40px;
+  margin-left: 160px;
+}
+main div.list ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+main div.list ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main div.list ul li p {
+  color: #949494;
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main section.details {
+  display: flex;
+  width: 1600px;
+  padding: 32px;
+  align-items: center;
+  gap: 24px;
+  margin-left: 160px;
+  margin-top: 66px;
+}
+main section.details article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+main section.details article img {
+  width: 96px;
+  height: 96px;
+  margin-top: 24px;
+}
+main section.details article h2 {
+  color: #403C39;
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main section.details article p {
+  color: #949494;
+  font-family: "PoppinsRegular", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+html * {
+  font-family: "PoppinsRegular", sans-serif;
+}
+
+body {
+  width: 1920px;
+  height: 1080px;
+  overflow-x: hidden;
+  background-image: url(/img/delivery-concept-handsome-african-american-deliver-AZUZTZ3\ 1.png);
+  background-position: top 48px left 600px;
+  background-size: 1066px 712px;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */

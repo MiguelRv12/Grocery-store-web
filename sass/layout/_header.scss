@@ -1,0 +1,100 @@
+header{
+    width: 1920px;
+    height: 120px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    img{
+        width: 194px;
+        height: 54px;
+        margin-top: 33px;
+        margin-left: 160px;
+        margin-bottom: 33px;
+    }
+    nav{
+        width: 646px;
+        height: 27px;
+        margin-top: 46px;
+        margin-left: 283px;
+        margin-bottom: 47px;
+        ul{
+            display: inline-flex;
+            align-items: flex-start;
+            gap: 56px;
+            flex-direction: row;
+            list-style: none;
+            a{
+                color: nth($text-color,  2);
+                font-family: $font-text;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal; 
+                text-decoration: none;
+
+            }
+            a:hover{
+                color: nth($text-color , 4);
+                border-bottom: 2px nth($text-color, 4);
+            }
+        }
+    }
+    aside{
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 32px;
+            height: 32px;
+            margin-top: 44px;
+            margin-left: 140px;
+            margin-bottom: 44px; 
+        }
+        a{
+            margin-top: 46px;
+            margin-left: 56px;
+            margin-bottom: 47px;
+            color: nth($text-color,  4);
+            font-family: $font-text;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; 
+            text-decoration: underline; 
+        }
+        a:hover{
+            color: nth($text-color , 2);
+        }
+        button{
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-bottom: 47px;
+            display: flex;
+            width: 149px;
+            height: 60px;
+            padding: 8px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+            border-radius: 16px;
+            border: 0px;
+            background: nth($text-color,  4);
+            align-items: center;
+            justify-content: center;
+            a{
+                height: 100%;
+                width: 100%;
+                color: white;
+                font-family: $font-text;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                margin: 0px;
+                margin-top: 16px;
+            }
+
+        }
+    }
+}
